@@ -1,0 +1,29 @@
+.display-header a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+}
+
+
+.display-header{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.display-nav{
+    display: flex;
+    gap: 50px;
+    padding: 40px;
+}
+
+

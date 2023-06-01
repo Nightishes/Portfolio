@@ -1,0 +1,56 @@
+main{
+    padding: 0 2em;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+
+main h1{
+    font-size: 4em;
+    font-weight: 700;
+    margin: 1em 0 2em 0;
+}
+
+.summary-myself h2, .summary-project h2{
+    font-size: 3em;
+}
+
+.summary-myself{
+    display: flex;
+    gap: 20px;
+}
+
+.summary-myself img{
+    height: 300px;
+}
+
+.summary-myself a{
+    color: black;
+}
+.summary-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-text p, .summary-project p{
+    font-size: 26px;
+    margin: 50px 0;
+    line-height: 142%;
+}
+
+.summary-myself h3{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.summary-project{
+    margin: 20em 0 2em 0;
+}
+
+.summary-project h2{
+    margin: 0 0 30px 0;
+}
+

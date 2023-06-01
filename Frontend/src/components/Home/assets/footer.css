@@ -1,0 +1,44 @@
+footer{
+    background-color: black;
+    color: white;
+}
+
+#github-icon, #email-icon{
+    filter: invert(1);
+}
+
+footer img{
+    opacity: 1;
+}
+
+footer img:hover{
+    opacity: 0.7;
+}
+
+footer h2{
+    font-size: 50px;
+}
+
+footer p{
+    font-size : 26px;
+}
+
+.footer-display{
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#linkedin-icon{
+    height: 80px;
+}
+
+#email-icon{
+    height: 50px;
+}
+#github-icon{
+    height: 60px;
+}
+
+
