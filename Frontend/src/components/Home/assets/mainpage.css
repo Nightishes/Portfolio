@@ -1,17 +1,55 @@
-main{
-    padding: 0 2em;
-}
+html {
+    scroll-behavior: smooth;
+   }
 
 a:hover{
     cursor: pointer;
 }
 
+.first-look{
+    padding-top: 20em;
+    padding-bottom: 35em;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    align-items: center;
+    background-color: beige;
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/034/566/691/large/cordy-daler-palmsscene.jpg?1612633514);
+    background-size: cover;
+}
 
 
-main h1{
+.first-look h1{
     font-size: 4em;
     font-weight: 700;
-    margin: 1em 0 2em 0;
+}
+
+.first-look h1, .first-look button{
+    color: white;
+}
+
+.buttons-first-look{
+    display: flex;
+    gap: 5em;
+}   
+
+.first-look button{
+    background: transparent;
+    border: 2px solid cornsilk;
+    border-radius: 50px;
+    font-size: 2em;
+    padding: 10px 20px;
+}
+
+
+.summary-myself, .summary-project{
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.summary-myself{
+    padding-top: 10em;
+    padding-bottom: 30em;
 }
 
 .summary-myself h2, .summary-project h2{
@@ -21,7 +59,10 @@ main h1{
 .summary-myself{
     display: flex;
     gap: 20px;
+    background-color: beige;
+    flex-direction: row-reverse;
 }
+
 
 .summary-myself img{
     height: 300px;
@@ -30,6 +71,7 @@ main h1{
 .summary-myself a{
     color: black;
 }
+
 .summary-text{
     display: flex;
     flex-direction: column;
@@ -47,10 +89,49 @@ main h1{
 }
 
 .summary-project{
-    margin: 20em 0 2em 0;
+    padding-top:  10em;
+    padding-bottom: 2em;
+    background-color: rgb(177, 235, 177);
 }
 
 .summary-project h2{
     margin: 0 0 30px 0;
 }
 
+@media all and (max-width:1500px) {
+    
+
+    .first-look h1{
+        font-size: 3em;  
+    }
+
+    .buttons-first-look{
+        gap: 2vw;
+    }
+}
+
+@media all and (max-width:1200px) {
+   
+
+    .first-look{
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .first-look button{
+        border: 1px solid cornsilk;
+        font-size: 2em;
+    }
+
+    
+}
+
+@media all and (max-width: 1000px){
+    .summary-myself{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+}

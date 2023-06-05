@@ -28,15 +28,15 @@ footer p{
     display: flex;
     align-items: center;
     gap: 50px;
+    justify-content: center;
 }
 
-#linkedin-icon{
-    height: 80px;
+
+
+#email-icon, #linkedin-icon{
+    height: 40px;
 }
 
-#email-icon{
-    height: 50px;
-}
 #github-icon{
     height: 60px;
 }
