@@ -11,7 +11,7 @@ a:hover{
     padding-bottom: 35em;
     display: flex;
     justify-content: center;
-    gap: 3vw;
+    gap: 10vw;
     align-items: center;
     background-color: beige;
     background-image: url(https://cdnb.artstation.com/p/assets/images/images/034/566/691/large/cordy-daler-palmsscene.jpg?1612633514);
@@ -30,7 +30,7 @@ a:hover{
 
 .buttons-first-look{
     display: flex;
-    gap: 5em;
+    gap: 2vw;
 }   
 
 .first-look button{
@@ -103,6 +103,10 @@ a:hover{
 
     .first-look h1{
         font-size: 3em;  
+    }
+
+    .first-look{
+        gap: 5vw;    
     }
 
     .buttons-first-look{
