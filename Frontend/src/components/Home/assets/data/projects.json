@@ -31,7 +31,7 @@
     "description" : "Site réalisé avec React à partir d'une base de donnée JSON. Le but était de manipuler React, et plus particulièrement les props et les states",
     "image" : "https://i.imgur.com/Al63LC6.png",
     "github" : "https://github.com/Nightishes/Projet--6-Kesa.git",
-    "weblink" : "www.google.com",
+    "weblink" : "https://projet-6-kesa.vercel.app",
     "tags" : [
         "html5",
         "css3",
