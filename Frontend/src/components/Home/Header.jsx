@@ -19,7 +19,7 @@ function Header() {
                     <li><a href='#summary'>Ma présentation</a></li>
                     <li><a href='#projects'>Mes projets réalisés</a></li>
                     <li><a href='#contact'>Me contacter</a></li>
-                    <button id='button-switch-language'>Switch to EN / FR</button>
+                    {/* <button id='button-switch-language'>Switch to EN / FR</button> */}
                 </ul>
                 </div>
                

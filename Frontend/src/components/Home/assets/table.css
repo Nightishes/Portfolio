@@ -21,3 +21,18 @@ td{
  }
  
 
+@media all and (max-width:1000px){
+    th{
+        width: 30vw;
+    }
+}
+
+@media all and (max-width:600px){
+    th{
+        width: 33%;
+    }
+    
+    .table-competences{
+        font-size: 20px;
+    }
+}

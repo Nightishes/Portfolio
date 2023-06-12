@@ -30,8 +30,8 @@ function Mainpage() {
                 {/* <h3><a href='#'>Mon CV</a></h3> */}
             </div>
             <div className='summary-text'>
-                <h2>Présentation Full-Stack</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                <h2>A propos de moi</h2>
+                <p>Féru de nouvelles technologies, je cherche toujours à mieux comprendre le monde qui nous entoure. Je passe mon temps à lire ou écouter ce qui m'entoure ainsi que de tester des nouvelles recettes.</p> 
                 <div>
                     <p>Outils utilisés:</p>
                     <Table/>
@@ -40,7 +40,6 @@ function Mainpage() {
         </section>
         <section className='summary-project' id='projects'>
             <h2>Mes projets</h2>
-            <p>Disclaimer : Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <Project/>
         </section>
         {/* aws, hostinger, ovh layout-react, nom de domaine/hebergement  */}

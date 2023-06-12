@@ -54,11 +54,12 @@ a:hover{
 
 .summary-myself h2, .summary-project h2{
     font-size: 3em;
+    font-weight: 700;
 }
 
 .summary-myself{
     display: flex;
-    gap: 20px;
+    gap: 40px;
     background-color: beige;
     flex-direction: row-reverse;
 }
@@ -91,7 +92,7 @@ a:hover{
 .summary-project{
     padding-top:  10em;
     padding-bottom: 2em;
-    background-color: rgb(177, 235, 177);
+    background-color: #e8e4c8;
 }
 
 .summary-project h2{
@@ -123,7 +124,6 @@ a:hover{
     }
 
     .first-look button{
-        border: 1px solid cornsilk;
         font-size: 2em;
     }
 
@@ -138,4 +138,52 @@ a:hover{
         gap: 40px;
     }
 
+}
+
+@media all and (max-width: 600px){
+
+
+    .first-look h1,.summary-myself h2, .summary-project h2{
+        font-size: 2em;  
+    }
+
+    .first-look,.summary-myself,.summary-project{
+        text-align: center;
+    }
+
+    .first-look{
+        gap: 20vw;
+        padding-top: 10em;
+        padding-bottom: 20em;
+    }
+
+    .buttons-first-look{
+        flex-direction: column;
+    }
+
+    .first-look button{
+        font-size: 1.5em;
+        padding: 10px 0;  
+        width:250px; 
+    }
+
+
+    .summary-myself{
+        padding-top: 5em;
+        padding-bottom: 10em;
+    }
+
+    .summary-myself img{
+        height: 70vw;
+    }
+
+    .summary-project{
+        padding-top:5em;
+        padding-bottom: 2em;
+    }
+
+    .summary-myself, .summary-project{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
 }

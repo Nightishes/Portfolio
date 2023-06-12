@@ -22,6 +22,7 @@
     border-radius: 25px 25px 0 0;
 }
 
+
 .description-project{
     height: 8em;
 }
@@ -29,6 +30,18 @@
 .text-project{
     margin: 0 20px;
 }
+
+.text-project h3{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.tags-group{
+    height: 100px;
+}
+
 
 .tags-project{
     display: flex; 
@@ -61,4 +74,59 @@
 
 .links-project img{
     height: 80px;
+}
+
+@media all and (max-width:1100px) {
+    .card-project{
+        width: 40vw;
+    }
+    .image-project {
+       object-fit: fill;
+    }
+    
+    .text-project h3{
+        height: 2em;
+    }
+}
+
+@media all and (max-width:750px) {
+
+    .description-project{
+        height: 45vw;
+    }
+    .text-project h3{
+        font-size: 30px;
+    }
+    .card-project{
+        width: 80vw;
+    }
+    
+   
+}
+
+@media all and (max-width: 600px) {
+    .description-project{
+        margin: 5px 0 100px 0!important;
+    }
+     .text-project p{
+        font-size: 22px;
+    }
+    .card-project{
+        width: 92vw;
+    }
+    .tag-project{
+        font-size: 12px;
+    }
+    .tag-project{
+        font-size: 14px;
+    }
+    .live-project {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width:350px) {
+    .text-project p{
+        font-size: 16px;
+    }
 }

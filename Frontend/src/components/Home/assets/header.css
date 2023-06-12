@@ -51,7 +51,7 @@ header{
         left: 0;
         flex-direction: column;
         width:100%;
-        height: calc(25vh - 77px);
+        height: calc(50vh - 77px);
         background-color: black;
         border-top: 1px solid black;
         object-fit: contain;
