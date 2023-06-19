@@ -3,8 +3,8 @@
     "name": "Booki",
     "description" : "Premier site internet fait avec OpenClassroom. Le site est statique et fut mon premier vrai projet publié en HTML et CSS",
     "image" : "https://i.imgur.com/r69a8Bq.png",
-    "github" : "https://github.com/Nightishes/Projet-2-Booki.git",
-    "weblink" : "www.google.com",
+    "github" : "https://projet-2-booki.vercel.app/",
+    "weblink" : "https://projet-2-booki.vercel.app/",
     "tags" : [
         "html5",
         "css3",
