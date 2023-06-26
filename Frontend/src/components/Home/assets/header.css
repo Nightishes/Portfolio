@@ -4,7 +4,10 @@
     text-decoration: none;
 }
 
-
+#home-icon{
+    filter: invert(1);
+    height: 60px;
+}
 header{
     background-color: black;
     color: white;

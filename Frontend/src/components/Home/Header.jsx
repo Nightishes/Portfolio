@@ -1,5 +1,6 @@
 import './assets/header.css'
 import MenuIcon from './assets/images/menu-bar.webp'
+import HomeIcon from './assets/images/home-icon.png'
 import { useState } from 'react';
 
 function Header() {
@@ -9,7 +10,7 @@ function Header() {
     return (
         <>
         <header className='display-header'>
-        <a href='/'>Home</a>
+        <a href='/'><img id='home-icon' src={HomeIcon} alt='Home'></img></a>
             <nav>
                 <button className='menu-icon-button'>
                     <img src={MenuIcon} alt="" className='menu-icon' onClick={() => { setIsNavExpanded(!isNavExpanded)}}/>
@@ -19,7 +20,7 @@ function Header() {
                     <li><a href='#summary'>Ma présentation</a></li>
                     <li><a href='#projects'>Mes projets réalisés</a></li>
                     <li><a href='#contact'>Me contacter</a></li>
-                    {/* <button id='button-switch-language'>Switch to EN / FR</button> */}
+                
                 </ul>
                 </div>
                
